@@ -1,0 +1,45 @@
+
+╔══════════════════════════════════════════════════════════╗
+║     HR ANALYTICS — EMPLOYEE ATTRITION EXECUTIVE REPORT   ║
+╚══════════════════════════════════════════════════════════╝
+
+DATASET   : 800 Employees | 18 Features | 6 Departments
+
+WORKFORCE KPIs
+─────────────────────────────────────────────────────────
+  Total Employees      : 800
+  Attrition Rate       : 19.9%
+  Avg Monthly Income   : ₹85,791
+  Avg Age              : 39.2 years
+  Avg Tenure           : 10.1 years
+  Employees on OT      : 31.9%
+
+KEY ATTRITION FINDINGS
+─────────────────────────────────────────────────────────
+  1. HR has highest attrition at 29.9%
+  2. Overtime employees leave at 33.3% vs 13.6% (no OT)
+  3. Low satisfaction (score 1-2) leads to 50.4% attrition
+  4. New employees (≤2 yrs tenure) leave at 36.8% — onboarding gap
+
+TOP ATTRITION PREDICTORS (ML Model):
+  • JobSatisfaction           → 0.2507
+  • MonthlyIncome             → 0.1314
+  • YearsAtCompany            → 0.1108
+  • TrainingHours             → 0.1107
+  • OverTime                  → 0.0961
+
+MODEL PERFORMANCE
+─────────────────────────────────────────────────────────
+  Random Forest       → Accuracy: 76.25% | AUC: 0.728
+  Gradient Boosting   → Accuracy: 76.88% | AUC: 0.739
+
+HR RECOMMENDATIONS
+─────────────────────────────────────────────────────────
+  ✅ Reduce overtime — OT doubles attrition risk
+  ✅ Conduct stay interviews for satisfaction score < 3
+  ✅ Strengthen 90-day & 1-year onboarding programs
+  ✅ Salary review for HR — highest attrition dept
+  ✅ Introduce flexible work policy to improve work-life balance
+  ✅ Increase training budget — top performers get 40% more training
+
+═══════════════════════════════════════════════════════════
